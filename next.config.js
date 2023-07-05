@@ -4,6 +4,7 @@ const nextTranslate = require("next-translate");
 
 module.exports = {
   reactStrictMode: true,
+  swcMinify:false
 };
 module.exports = withCSS({
   cssLoaderOptions: {
